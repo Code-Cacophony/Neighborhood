@@ -27,6 +27,12 @@ There are no known bugs in this program.
 
 ## SPECS
 
+-The program takes a number and makes it into an array
+-The program then looks for the numbers 1, 2, and 3 in the array.
+-If there is a 1, it replaces it with, "Beep!"
+-If there is a 2, it replaces it with, "Boop!"
+-If there is a 3, it replaces it with, "Will you be my neighbor?"
+
 ## CONTACT
 
 If you have any questions that aren't answered here, suggestions or would like to report a bug, contact me at [Erik Grove](mailto:erik@administrata.com.com?subject=[GitHub]).
