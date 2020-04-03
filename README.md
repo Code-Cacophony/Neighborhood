@@ -4,7 +4,7 @@
 
 by _**Erik Grove**_
 
-This program runs the main page that indroduces me and links a few of my projects I've coded.
+This program takes specific numbers and replaces them with phrases.
 
 ## TECHNOLOGY USED
 
