@@ -1,9 +1,19 @@
-var num = [1, 2, 3];
-var num1 = 1;
-var num2 = 2;
-var num3 = 3;
+var num = ["1", "2", "3"];
 
-const str = [1, "2", "3"];
+/*var num1 = 1;
+var num2 = 2;
+var num3 = 3; */
+
+
+
+/*const num1 = "1";
+const num2 = "2";
+const num3 = "3";*/
+
+const sentence = num;
+
+
+console.log(`The number "${num}" ${sentence.includes(num) ? 'is' : 'is not'} in the sentence`);
 
 
 $(document).ready(function () {
@@ -15,17 +25,14 @@ $(document).ready(function () {
       // var array = []
       var newArray = index.toString();
 
-      if (index === num1) {
-        var beep = index.replace("Beep!")
-      }
-
-      if (index === num3) {
-        var neighbor = index.replace("Will you be my neighbor?")
-      }
 
 
-      console.log(newArray);
-      console.log(beep);
+      var numArray = newArray.replace("Beep!");
+
+
+
+      console.log(numArray);
+
     }
   });
 });
